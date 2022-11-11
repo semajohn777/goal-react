@@ -29,7 +29,7 @@ const Form = (props) => {
           
           <form onSubmit={formHandler} className={`${valid ? "invalid" : ""}`}>
               {/* or like dis style={{borderColor: valid ? "red" : "" }}  */}
-                <label htmlFor="">Goals</label>
+                <label htmlFor="">Set Goals</label>
               <div >
                   <input className='input' type="text" value={todo} onChange={onchangehandler } />
               </div>
